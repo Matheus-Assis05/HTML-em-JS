@@ -1,11 +1,4 @@
-
-function criarBox(html){
-    let box = document.createElement('div')
-    box.innerHTML = html;
-
-
-    document.body.append(box)
-}
-
-function abrirBox(){
-}
+/*
+* IREI RECEBER A DIV DE CLASSE POPUP, QUE POR PADRAO POSSUI DISPLAY: NONE E ATRAVEZ DO JS FAZER COM QUE AO APERTAR O BOTAO O DISPLAY SE TORNE INLINE
+* TAMBEM QUERO FAZER COM QUE O POPUP FECHE AO APERTAR O X VERMELHO
+*/

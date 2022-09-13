@@ -1,13 +1,51 @@
-
-/*botao*/
-.botao{
-    text-align: center;
-    margin-top: 40vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.botao #botaoPag{
+/*container*/
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*botao*/
+.container #botaoPag{
     height: 120px;
     width: 350px;
-    
-    padding-top: 45px;
+    border-radius: 35px;
+    padding-top: 5px;
+    font-size: 30px;
 }
 /**/
+/*box*/
+.container .popup{
+    /*display: none;*/
+    color: black;
+    position: absolute;
+    width: 370px;
+    height: 590px;
+    background: #fff;
+    border-radius: 6px;
+    top: 15%;
+    text-align: center;
+}
+.container .popup img{
+    height: 200px;
+    width: auto;
+    clip-path: 	circle();
+}
+.container .popup form #alert{
+    margin-top: 10px;
+}
+.container .popup .botaofechar{
+    text-align: right;
+    margin-top: 6px;
+    margin-right: 18px;
+
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+}

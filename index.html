@@ -11,10 +11,34 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 </head>
 <body class="bg-dark text-white">
+    
+    <div class="container" class="bg-dark">
+        <button type="button" id="botaoPag" class="btn btn-danger">ABRIR</button>
 
-    <div class="botao">
-        <a id="botaoPag" class="btn btn-danger" href="#">Button</a>
+        <div class="popup">
+            <p class="botaofechar">X</p>
+
+            <img src='./img/Kanye-loiro.jpg' class='img-fluid rounded-top' alt='kanye'>
+            <figcaption class='fw-bolder' style='font-size:25px;'>PopUp</figcaption> <br>
+            <form>
+                <div class='mb-3'>
+                    <label for='' class='form-label fw-bold'>Label: </label>
+                    <input type='text' class='form-control' name='' placeholder='label...'>
+                </div>
+        
+                <div class='mb-3'>
+                    <label for='' class='form-label fw-bold'>Label: </label>
+                    <input type='text' class='form-control' name='' placeholder='label...'>
+                </div>
+        
+                <button type='button' class='btn btn-outline-primary'>SUBMIT</button>
+                    <div class='alert alert-primary' id='alert' role='alert'><a href='#' class='alert-link'>Clik Here</a></div>
+                </form>
+        </div>
     </div>
+
+</body>
+
 
     <script type="text/javascript" src="./assets/script.js"></script>
     <!-- BOOTSTRAP JS LINK -->
