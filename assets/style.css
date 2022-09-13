@@ -1,0 +1,13 @@
+
+/*botao*/
+.botao{
+    text-align: center;
+    margin-top: 40vh;
+}
+.botao #botaoPag{
+    height: 120px;
+    width: 350px;
+    
+    padding-top: 45px;
+}
+/**/
